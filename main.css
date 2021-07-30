@@ -1,0 +1,21 @@
+.title {
+  font-size: 30px;
+}
+.hint {
+  font-size: 15px;
+  border: 2px solid rgb(168, 168, 168);
+  width: 300px;
+}
+.counter {
+  font-size: 15px;
+  border: 2px solid rgb(168, 168, 168);
+  width: 300px;
+}
+.field {
+  background-color: rgb(219, 219, 219);
+}
+.button {
+  background-color: rgb(48, 221, 178);
+  border-radius: 6px;
+  margin-top: 10px;
+}
