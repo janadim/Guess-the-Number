@@ -4,20 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./main.css">
-    <title>Document</title>
+    <title>Guess the Number</title>
 </head>
-<body>
-    <h1 class="title">Adivina tu número</h1>
-    <form>
-        <label for="form js-form">Introduce aquí tu número:</label><br>
-        <input type="text" class='field' id="form js-form" name="form" value=""><br>
-    </form>
-    <button class="button js-button" type="button">Prueba</button>
-    <div class="container js-container">
-        <p class="hint js-hint">Pista: Escribe un número y dale a Prueba</p>
-        <p class="counter js-counter">Número de intentos: 0</p>
-    </div>
-    <script type="text/javascript" src="./main.js"></script>
+<body class="body">
+    <h1 class="title">Try to guess the number!</h1>
+    <section class="gen-container">
+        
+        <form>
+            <label for="form js-form">Write here your number:</label><br>
+            <input type="text" class='field' id="form js-form" name="form" value=""><br>
+        </form>
+        <button class="button js-button" type="button">Try</button>
+        <div class="container js-container">
+            <p class="hint js-hint">Hint: Write a number and click on "Try"</p>
+            <p class="counter js-counter">Number of attemps: 0</p>
+        </div>
+        <script type="text/javascript" src="./main.js"></script>
+    </section>
+    
 </body>
 </html>
