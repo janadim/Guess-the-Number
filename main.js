@@ -10,19 +10,19 @@ const form = document.forms[0];
 
 function handleClickButton(){
     counter = counter+1;
-    textCounter.innerHTML = `Número de intentos: ${counter}`;
+    textCounter.innerHTML = `Number of attems: ${counter}`;
     let textInput = form.elements['form'].value;
     if (textInput >= 1 && textInput <= 100){
       if (textInput > targetNumber){
-        textPar.innerHTML = 'Demasiado alto'
+        textPar.innerHTML = 'Too big'
       }else if(textInput < targetNumber){
-        textPar.innerHTML = 'Demasiado bajo'
+        textPar.innerHTML = 'Too small'
       }else{
-        textPar.innerHTML = 'Has ganado, campeona';
+        textPar.innerHTML = 'You won, my friend!';
       }
 
     }else{
-        textPar.innerHTML = 'El numero debe estar entre 1 y 100';
+        textPar.innerHTML = 'The number should be between 1 and 100';
     }
 }
 
