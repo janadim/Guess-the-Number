@@ -14,11 +14,11 @@ function handleClickButton(){
     let textInput = form.elements['form'].value;
     if (textInput >= 1 && textInput <= 100){
       if (textInput > targetNumber){
-        textPar.innerHTML = 'Too big'
+        textPar.innerHTML = 'Too large'
       }else if(textInput < targetNumber){
         textPar.innerHTML = 'Too small'
       }else{
-        textPar.innerHTML = 'You won, my friend!';
+        textPar.innerHTML = 'You won, my friend!!';
       }
 
     }else{
