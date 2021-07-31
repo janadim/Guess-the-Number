@@ -10,7 +10,7 @@ const form = document.forms[0];
 
 function handleClickButton(){
     counter = counter+1;
-    textCounter.innerHTML = `Number of attems: ${counter}`;
+    textCounter.innerHTML = `Number of attemts: ${counter}`;
     let textInput = form.elements['form'].value;
     if (textInput >= 1 && textInput <= 100){
       if (textInput > targetNumber){
